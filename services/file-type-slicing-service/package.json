@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/file-type-slicing-service",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "type": "module",
   "description": "Groups a PosixPathWalk's file list into counts and byte totals per lowercased extension, with no filesystem access. Use after a walk to see the shape of a tree before graphing it.",
