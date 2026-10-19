@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-file-engineering-services-section.git",
-    "directory": "services/file-observation-services-section"
+    "url": "git+https://github.com/red-cup-engineering/file-observation-services-section.git"
   },
   "private": true,
   "type": "module",
