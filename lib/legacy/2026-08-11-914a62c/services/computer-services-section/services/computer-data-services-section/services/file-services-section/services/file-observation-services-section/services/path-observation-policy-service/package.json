@@ -1,0 +1,17 @@
+{
+  "name": "@red-cup-engineering/path-observation-policy-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Resolves explicit, vault-local, or shipped priority-path and exclusion policy for filesystem observation coordinators.",
+  "exports": "./src/priority-paths-config.mjs",
+  "files": ["src", "etc"],
+  "scripts": {
+    "check": "node --check src/*.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test && npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
