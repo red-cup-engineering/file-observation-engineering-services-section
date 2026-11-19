@@ -1,0 +1,8 @@
+[submodule "lib/legacy/file-type-slicing-service"]
+	path = lib/legacy/file-type-slicing-service
+	url = https://github.com/red-cup-engineering/file-type-slicing-service.git
+	branch = main
+[submodule "lib/legacy/symlink-observation-service"]
+	path = lib/legacy/symlink-observation-service
+	url = https://github.com/red-cup-engineering/symlink-observation-service.git
+	branch = main
