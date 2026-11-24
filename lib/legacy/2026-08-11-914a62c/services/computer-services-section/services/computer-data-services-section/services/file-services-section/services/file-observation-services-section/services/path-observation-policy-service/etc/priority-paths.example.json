@@ -1,0 +1,6 @@
+{
+  "type": "TokenSearchPriorityPaths",
+  "_comment": "Copy to etc/priority-paths.json or pass its path explicitly. Observation coordinators carry no hidden priority-path or exclusion policy.",
+  "priorityPaths": ["content", "data/records"],
+  "excludes": ["node_modules", ".git", "legacy", "_archive", "archive", "package-registry*", ".tmp"]
+}
